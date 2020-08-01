@@ -9,7 +9,7 @@ $(window).ready(function() {
 			$('.main-navigation').addClass('hide');
 		}
 	});
-	if($(window).scrollTop() >= 40){
+	if($(window).scrollTop() >= 60){
 		$('.main-navigation').addClass('hide');
 	}
 
