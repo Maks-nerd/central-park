@@ -9,9 +9,9 @@ $(window).ready(function() {
 			$('nav').addClass('hide');
 		}
 	});
-	if($(window).scrollTop() >= 40){
-		$('nav').addClass('hide');
-	}
+// 	if($(window).scrollTop() >= 40){
+// 		$('nav').addClass('hide');
+// 	}
 
 
 
