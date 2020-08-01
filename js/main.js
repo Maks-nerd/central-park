@@ -3,13 +3,13 @@ $(window).ready(function() {
 	jplist.init();
 
 	$(window).scroll(function(){
-		if($(window).scrollTop() >= 40){
+		if($(window).scrollTop() <= 40){
 			$('nav').removeClass('hide');
 		} else {
 			$('nav').addClass('hide');
 		}
 	});
-	if($(window).scrollTop() <= 40){
+	if($(window).scrollTop() >= 40){
 		$('nav').addClass('hide');
 	}
 
