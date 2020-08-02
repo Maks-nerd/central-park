@@ -2266,7 +2266,7 @@ body.lock {
 .header__column {
  margin: 0 0 20px;
 }
-.header__column:las-child {
+.header__column:last-child {
  margin: 0;
 }
 .header__list li {
